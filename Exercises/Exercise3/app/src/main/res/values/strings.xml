@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Exercise3</string>
+
+    <string-array name="items">
+        <item>peach</item>
+        <item>tomato</item>
+        <item>squash</item>
+    </string-array>
+
+    <string-array name="prices">
+        <item>$0.99</item>
+        <item>$1.49</item>
+        <item>$0.89</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>Fresh peaches from Lappeenranta</item>
+        <item>Fresh salad from Helsinki</item>
+        <item>Yellow squash from somewhere</item>
+    </string-array>
+</resources>
