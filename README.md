@@ -1,40 +1,50 @@
 # Mobile Development Coursework - Android Studio
 
-This repository contains my coursework, exercises, and the final project for the Anytime course: Software Development Skills: Mobile 2025-26.
+**Author:** [Jere Verkkomäki]  
+**Student Number:** [001833690]
+
+This repository contains my coursework, learning diary and the project for the Anytime course: Software Development Skills: Mobile 2025-26.
 
 ## Repository Structure
 
 *   **/Exercises** - Contains all the practical exercise projects completed during the course.
     *   `Exercise1/` - My First App (Basic sum calculator).
     *   `Exercise2/` - Quick Add Launcher (Two views that information carries between. Google button).
+    *   `Exercise3/` - A RecyclerView that shows fruits, prices, descriptions and images.
 *   **/Project** *(Coming Soon)* - The source code for the final standalone Android application.
-*   **Learning_Diary.docx and pdf** *(Coming Soon)* - Document reflecting my learning process and thoughts.
-
----
-
-## Exercises Overview
-
-### Exercise 1: My First App
-*   **Description:** Setting up the Android Studio environment, understanding the basic project structure, making buttons, EditTexts and basic functionality for them.
-*   **Technologies:** Android Studio, XML, Java.
+*   **Mobile Learning Diary.pdf** - Document reflecting my learning process and thoughts.
 
 ---
 
 ## The Course Project
+The project is a simple and intuitive Workout Tracker-app. Users can add workouts, workout durations and toggle if they've completed it or not.
+There is a list that shows every saved workout and by clicking on one the user can add extra details or delete the workout.
 
-*Information about the final project will be updated here once development begins.*
+Tools:
+*   **Language:** Java
+*   **Build system:** Gradle (Kotlin DSL)
+*   **Mininum SDK:** API Level 24 Nougat
+*   **IDE: Android** Studio
+
+### Project Structure:
+*   `MainActivity` (The main navigation menu)
+*   `AddWorkoutActivity` (Ability to add a workout to the list)
+*   `WorkoutListActivity` (Displays the workout data using a RecyclerView and an adapter)
+*   `WorkoutDetailActivity` (Shows detailed info about the workout and delete button)
+*   `WorkoutManager` (A singleton class that manages the data)
 
 ### How to Run the Project
-1. Clone this repository: `git clone https://github.com/jreLUT/Mobile-Course.git`
+1. Clone this repository: `git clone [https://github.com/jreLUT/Mobile-Course.git](https://github.com/jreLUT/Mobile-Course.git)`
 2. Open the `/Project` folder in **Android Studio** (Nougat Level 24 API or newer should work).
 3. Let Gradle sync and build the project.
-4. Run the app on an Android Emulator or a physical device via USB debugging.
+4. Run the app on an Android Emulator or a physical device via USB debugging (I personally couldn't test the Emulator myself due to having an ARM-based laptop, since it's not supported and used USB debugging.)
 
-### Demonstration Video On YouTube (No Audio)
-*   [Link to YouTube Video]
+### Demonstration Video (No Audio)
+*   Link: 
 
 ---
 
 ## Learning Diary & Self-Reflection
 
-The mandatory learning diary is updated alongside every coding session. It tracks the challenges faced, solutions found (e.g., configuring Git, etc.), and reflections on independent problem-solving and insights.
+The mandatory learning diary has been updated as I went through the course in a time span of only 4 days or so. 
+It is included in the repo as a pdf-file.
