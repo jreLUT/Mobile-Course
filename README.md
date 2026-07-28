@@ -24,7 +24,7 @@ There is a list that shows every saved workout and by clicking on one the user c
 *   **Language:** Java
 *   **Build system:** Gradle (Kotlin DSL)
 *   **Mininum SDK:** API Level 24 Nougat
-*   **IDE: Android** Studio
+*   **IDE:** Android Studio
 
 ### Project Structure:
 *   `MainActivity` (The main navigation menu)
@@ -34,17 +34,18 @@ There is a list that shows every saved workout and by clicking on one the user c
 *   `WorkoutManager` (A singleton class that manages the data)
 
 ### How to run the project
-1. Clone this repository: `git clone https://github.com/jreLUT/Mobile-Course.git`
-2. Open the `/Project` folder in **Android Studio** (Nougat Level 24 API or newer should work).
+1. Clone this repository: `git clone https://github.com/jreLUT/Mobile-Course.git` or download it as a ZIP-file and extract the contents.
+2. Open exactly the `/Project` folder in **Android Studio** (Nougat Level 24 API or newer should work).
 3. Let Gradle sync and build the project.
 4. Run the app on an Android Emulator or a physical device via USB debugging (I personally couldn't test the Emulator myself due to having an ARM-based laptop, since it's not supported and used USB debugging.)
 
-### Demonstration Video (No Audio)
-*   Link: 
+### Demonstration YouTube Video In Shorts Format (No Audio)
+The video is recorded on my android device due to the issue of not being able to use the Android Studio emulators, because of my ARM-based processor.
+*   Link: `https://www.youtube.com/shorts/BWxrCqAmftM`
 
 ---
 
 ## Learning Diary
 
-The mandatory learning diary has been updated as I went through the course in a time span of only 4 days or so. 
+The mandatory learning diary has been updated as I went through the course.
 It is included in the repo as a pdf-file.
